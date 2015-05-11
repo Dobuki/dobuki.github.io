@@ -2,7 +2,7 @@ if(window==top) {
     document.addEventListener("DOMContentLoaded",
         function(e) {
             e.currentTarget.removeEventListener(e.type,arguments.callee);
-            var ghAccount = window.location.href.split(".github.io/")[0].split("/")[1];
+            var ghAccount = window.location.href.split(".github.io/")[0].split("//")[1];
             var reponame = window.location.href.split(ghAccount+".github.io/")[1].split("/")[0];
             var loc = window.location.href.split(reponame+"/")[1].split("/")[0];
             var table = document.createElement("table");
