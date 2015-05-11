@@ -6,7 +6,7 @@ if(!currentScript) {  //  IE
 }
 var trackingID = currentScript.getAttribute("tracking-id");
 if(!trackingID) {
-  trackingID = "UA-41589840-10";
+  trackingID = "UA-41589840-13";
 }
 
 // GOOGLE ANALYTICS CODE
